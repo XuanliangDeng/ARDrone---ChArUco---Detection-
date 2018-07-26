@@ -31,5 +31,8 @@ For me, my code look like this
 ./calibrate_camera_charuco -d=14 --dp='/home/parallels/opencv_contrib/modules/aruco/samples/detector_params.yml' -h=7 --ml=0.025 -sl=0.034 -w=5 calibrate_camera.yml -v='/home/parallels/ardrone_videos/output.avi' 
 ```
 
+## ChArUco marker detection
+To detect charuco markers, we need the communication between OpenCV package and rostopic in ROS, we use cv_bridge and other packages to achieve this, the details about implementation contained in cpp file.
+
 
 
