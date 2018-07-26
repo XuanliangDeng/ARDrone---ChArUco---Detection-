@@ -22,7 +22,8 @@ To calibrate camera on ARDrone, we have two options. We can either use a recorde
 g++ -std=c++11 calibrate_camera_charuco.cpp `pkg-config --libs --cflags opencv` -o calibrate_camera_charuco
 ```
 * Secind calibrate your own camera, use the following command, if everything goes on well, you should get a yaml file containg camera parameters
-```C++./calibrate_camera_charuco -d=14 --dp='/home/parallels/opencv_contrib/modules/aruco/samples/detector_params.yml' -h=7 --ml=0.025 -sl=0.034 -w=5 calibrate_camera.yml -v='/home/parallels/ardrone_videos/output.avi'cd ~/opencv_contrib/modules/aruco/samples/
+```C++
+./calibrate_camera_charuco -d=14 --dp='/home/parallels/opencv_contrib/modules/aruco/samples/detector_params.yml' -h=7 --ml=0.025 -sl=0.034 -w=5 calibrate_camera.yml -v='/home/parallels/ardrone_videos/output.avi'cd ~/opencv_contrib/modules/aruco/samples/
 ```
 
 
