@@ -22,7 +22,7 @@ Here we recorded a short video for calibration. The chessboard and video for cal
 ```C++
 g++ -std=c++11 calibrate_camera_charuco.cpp `pkg-config --libs --cflags opencv` -o calibrate_camera_charuco
 ```
-* Second calibrate your own camera, use the following command, if everything goes on well, you should get a yaml file containg camera parameters
+* Second calibrate your own camera, use the following command
 ```C++
 ./calibrate_camera_charuco -d=DICTIONARY_NUM --dp=PATH_TO_DETECTOR_YAMLFILE -h=MARKER_NUM_Y --ml=MARKER_LENGTH -sl=SQUARE_LENGTH -w=MARKER_NUM_X calibrate_camera.yml -v=PATH_TO_VIDEO 
 ```
