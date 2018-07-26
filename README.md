@@ -1,6 +1,3 @@
-# ARDrone---ChArUco---Detection-
-This is 2018 summer project at Gatech. Supervised by Professor Vela and Yipu Zhao.
-
 # Camera pose estimation with ROS and ChArUco markers
 This is summer project 2018, supervised by Professor Patricio A. Vela &amp; Yipu Zhao.  
 The main tools are OpenCV, ChArUco, ROS. 
