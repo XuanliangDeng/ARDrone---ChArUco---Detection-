@@ -32,7 +32,7 @@ For me, my code look like this
 ```
 
 ## ChArUco marker detection
-To detect charuco markers, we need the communication between OpenCV package and rostopic in ROS, we use cv_bridge and other packages to achieve this, the details about implementation are contained in cpp file. To use this, change the parameters about file directory in ChArUco.h. Use the following code to run
+To detect charuco markers, we need the communication between OpenCV package and rostopic in ROS, we use cv_bridge and other packages to achieve this, the details about implementation are contained in cpp file. To use this, change the parameters about file directory in ChArUco.h. Run
 ```C++
 cd catkin_ws
 $ ./devel/lib/PKG_NAME/EXE_FILE
@@ -41,7 +41,7 @@ For example
 ```C++
 $ ./devel/lib/ardrone_test/main
 ```
-
+Coordinates of key points and keypoints size will show on screen. Also a new window will pop up showing the live camera and axis.
 
 
 
