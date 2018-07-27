@@ -57,7 +57,9 @@ From this paper [AprilTag](https://april.eecs.umich.edu/media/pdfs/olson2011tags
 
 ## Experiment Results
 ![image](https://github.com/XuanliangDeng/ARDrone---ChArUco---Detection-/blob/master/image/image_2.png)
+This is the result when ARDrone is holding still in air. It can be seen from this picture that all markers and their corners could be successfully detected. If we can see this 3-color axis clearly, then we could obtain rotaion vector and translation vector as well.
 ![image](https://github.com/XuanliangDeng/ARDrone---ChArUco---Detection-/blob/master/image/image_3.png)
+This is the result when ARDrone is static.
 
 
 
