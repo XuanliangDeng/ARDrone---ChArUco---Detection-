@@ -46,11 +46,11 @@ Coordinates of key points and keypoints size will show on screen. Also a new win
 ## Detection range tests
 From this paper [AprilTag](https://april.eecs.umich.edu/media/pdfs/olson2011tags.pdf), the detection range and angle are 50m and 80 degree, repectively in simulation where conditions(like light, noise etc) are all ideal. In real test for ArUco tag and the camrea we use, the tests result are 
 
- | Parameters   | Static | Moving(st in air)  |
- | ------------ | ------ | --------------------  |
- | Max Distance |  1.7m  |         1.5m          |
- | Min Distance |  0.53m |         0.50m         |
- | Max Angle    |   50   |          40           |
+ | Parameters   | Static | Moving(static in air)  |
+ | ------------ | ------ | --------------------   |
+ | Max Distance |  1.7m  |         1.5m           |
+ | Min Distance |  0.53m |         0.50m          |
+ | Max Angle    |   50   |          40            |
  
  In experiments, when the camera on drone is static, it can successfully detect all markers and draw axis simultaneously at a distance of 1.7m, between 1.7m and 2.1m, it can draw axis but its not stable. When beyond 2.1m, the camera can only detect several markers. When camera is holding still in the air, the maximum distance is 1.5m, unstable distance is 1.5m-1.8m, when beyond 1.8m, camera can only detect several markers.
 
