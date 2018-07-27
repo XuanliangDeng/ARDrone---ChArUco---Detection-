@@ -45,11 +45,11 @@ Coordinates of key points and keypoints size will show on screen. Also a new win
 
 ## Detection range tests
 From this paper [AprilTag](https://april.eecs.umich.edu/media/pdfs/olson2011tags.pdf), the detection range and angle are 50m and 80 degree, repectively in simulation where conditions(like light, noise etc) are all ideal. In real test for ArUco tag and the camrea we use, the tests result are 
-             | Static | Moving(still in air)
------------- | ------ | --------------------
-Max Distance |  1.7m  |         1.5m
-Min Distance |   
-Max Angle    |   50   |          40
+             | Static | Moving(still in air)  |
+------------ | ------ | --------------------  |
+Max Distance |  1.7m  |         1.5m          |
+Min Distance |        |                       |
+Max Angle    |   50   |          40           |
 
 
 ## Experiment Results
