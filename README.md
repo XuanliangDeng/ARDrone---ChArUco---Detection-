@@ -44,7 +44,7 @@ $ ./devel/lib/ardrone_test/main
 Coordinates of key points and keypoints size will show on screen. Also a new window will pop up showing the live camera and axis.
 
 ## Experiment Results
-
+![image](https://github.com/XuanliangDeng/ARDrone---ChArUco---Detection-/blob/master/image/image_2.png)
 
 
 
